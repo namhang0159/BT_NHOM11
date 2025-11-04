@@ -14,6 +14,10 @@ void Name(){
 	cout<<"Nam";
 	
 }
+void Name1(){
+	cout<<"Nguyen";
+	
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -21,6 +25,7 @@ int main()
 	int tong = tong(5,6);
 	cout <<tong;
 	Name();
+	Name1();
 	system("pause");
 	return 0;
 }
