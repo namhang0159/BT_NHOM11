@@ -10,11 +10,15 @@ int hieu(int a, int b){
 
 int tich(int a, int b);
 float thuong(int a, int b);
+void Name(){
+	cout<<"Nam";
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<"Tong ="; <<tong(5,3);
 	cout << " Hieu La" << hieu(10,5);
+	Name();
 	system("pause");
 	return 0;
 }
