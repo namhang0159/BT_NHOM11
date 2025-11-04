@@ -13,7 +13,7 @@ float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-	cout<<"Tong ="; <<tong(5,3);
+	cout<<"Tong ="; <<tong(6,3);
 	cout << " Hieu La" << hieu(10,5);
 	system("pause");
 	return 0;
