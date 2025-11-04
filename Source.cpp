@@ -1,7 +1,9 @@
 #include <iostream>
 
 using namespace std;
-int tong(int a, int b);
+int tong(int a, int b){
+	return a+b;
+}
 int hieu(int a, int b){
 	return a-b;
 }
@@ -11,7 +13,7 @@ float thuong(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-	cout<<"Tong =";
+	cout<<"Tong ="; <<tong(5,3);
 	cout << " Hieu La" << hieu(10,5);
 	system("pause");
 	return 0;
